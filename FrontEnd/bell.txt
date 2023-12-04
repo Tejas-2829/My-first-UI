@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Notification Bell</title>
+        <style>
+            .container{
+                position: relative;
+                top: 40%;
+                left: 40%;
+            }
+            .dot{
+                position: absolute;
+                height: 30px;
+                width: 30px;
+                background-color: red;
+                border-radius: 50%;
+                top: 40%;
+                left: 42%;
+                text-align: center;
+                color: white;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="./bell.png" height="70px" width="70px">
+        </div>
+        <div>
+            <span class="dot">5</span>
+        </div>
+        </div>
+    </body>
+</html>

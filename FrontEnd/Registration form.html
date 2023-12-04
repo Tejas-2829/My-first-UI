@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registration form</title>
+</head>
+
+<body>
+  <h1>Registration form</h1>
+  <form>
+    <table>
+      <tr>
+        <td><b>Name</b></td>
+        <td><input type="text" name="name" required ></td>
+      </tr>
+      <tr>
+        <td><b>Email</b></td>
+        <td><input type="email" name="email" required></td>
+      </tr>
+      <tr>
+        <td><b>Gender</b></td>
+        <td><input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female</td>
+      </tr>
+      <tr>
+        <td><b>Country</b></td>
+        <td><select name="country">
+          <option value="countrys">Select Country</option>
+          <option value="Bharat">Bharat</option>
+          <option value="U.K">U.K</option>
+          <option value="Austreliya">Austreliya</option>
+          <option value="Japan">Japan</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td><b>Intrests</b></td>
+        <td>
+          <input type="checkbox" name="intrests[]" value="sports">Sports<br>
+          <input type="checkbox" name="intrests[]" value="music">Music<br>
+          <input type="checkbox" name="intrests[]" value="movie">Movie
+        </td>
+      </tr>
+      <tr>
+        <td><b>Comments</b></td>
+        <td><textarea cols="20" rows="4"></textarea></td>
+      </tr>
+      <tr>
+        <td><a href="http://127.0.0.1:5500/FrontEnd/sasta%20amazon.html" target="_blank"><button>Submit</a> 
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
+
+</html>
