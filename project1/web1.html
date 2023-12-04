@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <title>Grocy</title>
+</head>
+<style>
+    .container {
+        overflow: hidden;
+        display: flex;
+        position: relative; 
+        position: fixed;
+        background-color: rgba(241, 187, 36, 0.959);
+        justify-content: space-between;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        margin-top: -1%;
+        margin-left: -1%;
+    }
+
+    .icon{
+        display: flex;
+        /* list-style: none; */
+        justify-content: right;
+        /* text-align: center; */
+        margin-left: 300px;
+       padding-left: 50px;
+        
+    }
+
+    .icon li{
+        text-align: center;
+        list-style: none;
+        justify-content: center;
+        width:40px ;
+        height:25px;
+        background-color: rgb(240, 235, 235);
+        border-radius: 10px;
+        font-size: large;
+    }
+
+    .icon a:hover{
+        background-color: orange;
+    }
+
+    .icon a{
+        text-decoration: none;
+    }
+
+    .info{
+        /* position: relative; */
+        text-align: center;
+        color:black;
+    }
+
+    .center{
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        font-size: larger;
+    }
+
+    .logo {
+        display: flex;
+        font-weight: bold;
+        padding-left: 10%;
+        font-size: xx-large;
+    }
+
+    .logo a {
+        display: flex;
+        color: black;
+        justify-content: space-between;
+    }
+
+    .logo a:hover {
+        color: white;
+
+    }
+
+    .nav {
+        list-style: none;
+        display: flex;
+        margin: -10px;
+        padding-right: 10%;
+        font-size: x-large;
+        width: 2000px;
+        justify-content: center;
+        margin-left: 100px;
+    }
+
+    .nav li {
+        text-align: center;
+        margin-right: 40px;
+        padding-top: 17px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    .nav a:hover {
+        color: white;
+
+    }
+
+    .f1 {
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+
+    }
+
+    .box {
+        padding-left: 18px;
+        margin-left: 10px;
+        font-weight: bold;
+        width: 140px;
+        height: 40px;
+        background-color: orange;
+        border: 19px;
+    }
+
+    .features {
+        display: flex;
+        justify-content: center;
+    }
+
+    .f_content {
+        border-style: dotted;
+        display: flex;
+        justify-content: space-between
+    }
+
+    .f_content li {
+        background-color: white;
+        width: 450px;
+        height: 400px;
+        list-style: none;
+        text-align: center;
+        margin-right: 20px;
+        border-style: solid;
+        border-width: 8px 8px;
+        border-color: grey;
+    }
+
+    .btn {
+        background-color: transparent;
+        border-style: solid;
+        color: black;
+        width: 200px;
+        height: 30px;
+        cursor: pointer;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+    }
+
+    .bt a {
+        text-decoration: none;
+    }
+
+    .bt a:hover {
+        background-color: orange;
+    }
+
+    .box2{
+        padding-left: 18px;
+        margin-left: 10px;
+        font-weight: bold;
+        width: 160px;
+        height: 40px;
+        background-color: orange;
+        border: 19px;
+    }
+
+    .c_content{
+        display: flex;
+    }
+
+
+    .c_content li{
+        background-color: white;
+        width: 330px;
+        height: 450px;
+        list-style: none;
+        text-align: center;
+        margin-right: 20px;
+        border-style: solid;
+        border-width: 8px 8px;
+        border-color: grey;
+    }
+
+    .margin{
+        margin-bottom: 50px;
+        font-size: large;
+    }
+
+</style>
+
+<body style="background-color: rgb(233, 229, 229);">
+    <header>
+        
+        <div class="container">
+            <div class="logo"> <a href="#"><i class="fas fa-shopping-basket"></i>Grocy</a></div>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Categories</a></li>
+                <ul class="icon">
+                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+                </ul>
+            </ul>     
+            
+        </div>
+
+        <div>
+        
+       
+
+        </div>
+
+
+    </header>
+    <div class="info">
+        <img src="https://i.pinimg.com/originals/6c/55/bb/6c55bb682541f51946025683440b8d10.jpg"
+            width="100%px" height="450px">
+            <div class="center"><pre> <h1> Fresh And Organic Products For Your</h1></pre>
+        <pre><b>Daily Needs. Shop At Our Grocery Website For A Wide Selection Of High-Quality Fruits,
+                Vegetables, Dairy, Meat, And Pantry Items. We Guarantee Freshness And Offer Fast, 
+                Reliable Delivery To Your Doorstep. Start Shopping Today!
+            </b></pre>
+        
+            <p class="bt"><a href="#" class="btn">Shop Now</a></p>
+        </div>
+            
+    </div>
+
+    <div class="f1">
+        <p><b>Our</b></p>
+        <p class="box">Features</p>
+    </div>
+
+    <div class="features">
+        <ul class="f_content">
+            <li> <img src="https://grocy-clocermate.vercel.app/images/feature-1.png" alt="Fresh and Organic"
+                    width="70%px" height="50%px">
+                <h2><b>Fresh And Organic</b></h2>
+                <pre>
+  Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit.
+    Enim Ea Praesentium Architecto Mollitia Sint Velit Nostrum 
+    Ipsum, Voluptatibus Deleniti, Accusamus Deserunt Hic Neque.
+    Sed Temporibus, Numquam Ullam Hic Ipsam Quaerat.
+    </pre>
+                <p class="bt"><a href="#" class="btn">Read more</a></p>
+
+
+            </li>
+            <li> <img src="https://grocy-clocermate.vercel.app/images/feature-2.png" alt="Free Delivery" width="70%px"
+                    height="50%px">
+                <h2><b>Free Delivery</b></h2>
+                <pre>
+   Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit.
+   Enim Ea Praesentium Architecto Mollitia Sint Velit Nostrum 
+   Ipsum, Voluptatibus Deleniti, Accusamus Deserunt Hic Neque. 
+   Sed Temporibus, Numquam Ullam Hic Ipsam Quaerat
+          </pre>
+
+                <p class="bt"><a href="#" class="btn">Read more</a></p>
+            </li>
+
+
+            <li> <img src="https://grocy-clocermate.vercel.app/images/feature-3.png" alt="Easy Payment" width="70%px"
+                    height="50%px">
+                <h2><b>Easy Payment</b></h2>
+                <pre>
+   Lorem Ipsum, Dolor Sit Amet Consectetur Adipisicing Elit.
+   Enim Ea Praesentium Architecto Mollitia Sint Velit Nostrum 
+   Ipsum, Voluptatibus Deleniti, Accusamus Deserunt Hic Neque. 
+   Sed Temporibus, Numquam Ullam Hic Ipsam Quaerat
+            </pre>
+
+                <p class="bt"><a href="#" class="btn">Read more</a></p>
+            </li>
+
+        </ul>
+
+
+
+    </div>
+
+    <div class="f1">
+        <p><b>Our</b></p>
+        <p class="box">Product</p>
+
+    </div>
+
+    <div class="features">
+        <ul class="f_content">
+            <li> <img src="https://grocy-clocermate.vercel.app/images/products-1.png" alt="Fresh Orange" width="70%px"
+                    height="50%px">
+                <h1><b>Fresh Orange</b></h1>
+                <p>$4.99-$10.00/-</p>
+
+                <p class="bt"><a href="#" class="btn">Add to cart</a></p>
+
+            </li>
+
+            <li> <img src="https://grocy-clocermate.vercel.app/images/products-4.png" alt="Fresh Cabbage" width="70%px"
+                    height="50%px">
+                <h1><b>Fresh Cabbage</b></h1>
+                <p>$4.99-$10.00/-</p>
+
+                <p class="bt"><a href="#" class="btn">Add to cart</a></p>
+            </li>
+
+
+            <li> <img src="https://grocy-clocermate.vercel.app/images/products-2.png" alt="Fresh Onion" width="40%px"
+                    height="50%px">
+                <h1><b>Fresh Onion</b></h1>
+                <p>$4.99-$10.00/-</p>
+                <p class="bt"><a href="#" class="btn">Add to cart</a></p>
+            </li>
+
+        </ul>
+    </div>
+
+    <div class="features">
+        <ul class="f_content">
+
+            <li><img src="https://grocy-clocermate.vercel.app/images/products-5.png" alt="Fresh Potato"
+             width="70%px" height="50%px" >
+            <h1><b>Fresh Potato</b></h1>
+            <p>$4.99-$10.00/-</p>
+            <p class="bt"><a href="#" class="btn">Add to cart</a></p>
+            </li>
+
+
+            <li><img src="https://grocy-clocermate.vercel.app/images/products-6.png" alt="Fresh Avocado"
+             width="70%px" height="50%px">
+            <h1><b>Fresh Avocado</b></h1>
+            <p>$4.99-$10.00/-</p>
+            <p class="bt"><a href="#" class="btn">Add to cart</a></p>
+            </li>
+
+
+            <li><img src="https://grocy-clocermate.vercel.app/images/products-7.png" alt="Fresh Carrot"
+             width="70%px" height="50%px">
+            <h1><b>Fresh Carrot</b></h1>
+            <p>$4.99-$10.00/-</p>
+            <p class="bt"><a href="#" class="btn">Add to cart</a></p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="f1">
+        <p><b>Product</b></p>
+        <p class="box2">Categories</p>
+    </div>
+
+    <div class="features">
+        <ul class="c_content">
+
+            <li> <img src="https://grocy-clocermate.vercel.app/images/cat-1.png" alt="Vegetables"
+             width="70%px" height="50%px">
+            <h1><b>Vegetables</b></h1>
+            <p class="margin">up to 40% off</p>
+
+            <p class="bt"><a href="#" class="btn">Shop Now</a></p>
+            </li>
+           
+           
+            <li> <img src="https://grocy-clocermate.vercel.app/images/cat-2.png" alt="Fresh Fruits"
+             width="70%px"  height="50%px"> 
+            <h1><b>Fresh Fruits</b></h1>
+            <p class="margin">up to 40% off</p>
+            <p class="bt"><a href="#" class="btn">Shop Now</a></p>
+            </li>
+           
+           
+            <li> <img src="https://grocy-clocermate.vercel.app/images/cat-3.png" alt="Dairy Products"
+
+             width="70%px" height="50%px">
+            <h1><b>Dairy Products</b></h1>
+            <p class="margin">up to 40% off</p>
+            <p class="bt"><a href="#" class="btn">Shop Now</a></p>
+            </li>
+           
+           
+            <li> <img src="https://grocy-clocermate.vercel.app/images/cat-4.png" alt="Fresh Meat"
+             width="70%px" height="50%px">
+            <h1><b>Fresh Meat</b></h1>
+            
+            <p class="margin">up to 40% off</p>
+            <p class="bt"><a href="#" class="btn">Shop Now</a></p>
+            </li>
+
+        </ul>
+
+
+    </div>
+
+
+</body>
+
+</html>
