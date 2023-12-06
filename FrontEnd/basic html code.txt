@@ -1,8 +1,0 @@
- <img src="" alt=""
-        width="350"
-        height="350"/>
-        <br />
-        <b><em></em></b>
-
-
-        <a href=""></a>
