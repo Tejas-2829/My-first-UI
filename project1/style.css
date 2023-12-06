@@ -82,12 +82,6 @@
     font-size: larger;
 }
 
-.banner{
-    /* display: flex; */
-    /* position: relative; */
-}
-
-
 .info{
     display: flex;
     flex-direction: column;
