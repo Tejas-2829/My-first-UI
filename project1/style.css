@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    background-color: rgb(239 234 234);}
+
+.navabr {
+    /* background-color: brown */
+    display: flex;
+    position: fixed;
+    width: -webkit-fill-available;}
+
+.logo { 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 31%;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.nav-list {
+    display: flex;
+    width: 80%;
+    height: 77px;
+    background-color: white;
+    align-items: center;
+    list-style: none;
+    font-size: larger;
+    justify-content: center;
+}
+
+.nav-list li {
+    padding: 0px 20px ;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+
+}
+.nav-list a:hover{
+    color: orange;
+}
+
+.right-icon {
+    display: flex;
+    width: 30%;
+    background-color: white;
+    text-align: right;
+    padding: 13px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-icon li {
+    padding: 0px 14px;
+
+}
+
+.right-icon a{
+    text-decoration: none;
+    color: black;
+}
+
+.right-icon a:hover{
+    color: orange;
+}
+
+.icon{
+    width: 29px;
+    /* top: 6px; */
+    height: 23px;
+    text-align: center;
+    /* align-content: center; */
+    margin: 12px;
+    font-size: larger;
+}
+
+.banner{
+    /* display: flex; */
+    /* position: relative; */
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border-style: dotted; */
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    /* background-color: rebeccapurple; */
+    text-align: center;
+    width: 35rem;
+    height: 2rem;
+    padding-top: 15px;
+    font-size: xx-large;
+
+}
+
+.t1{
+    color: var(--light-color);
+    /* font-size: 1.7rem; */
+    font-size: large;
+}
+
+.btn_1{
+    background-color: transparent;
+    border-style: solid;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.btn_1 a{
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-left: 18px;
+    padding-right: 16px;
+    border-radius: 7px;
+}
+
+.btn_1 a:hover{
+    background-color: orange;
+}
+
+.container{
+    width: 100%;
+    /* background-color: green; */
+    height: 33rem;
+    background: url(../FrontEnd/banner.png);    
+    /* background-color: green; */
+    background: url(../FrontEnd/banner.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+.f1 {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    margin: 2rem;
+
+
+}
+
+.box {
+    padding-left: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+    width: 140px;
+    height: 40px;
+    background-color: orange;
+    border: 19px;
+    /* clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%); */
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+}
+
+.f_content {
+    /* border-style: dotted; */
+    display: flex;
+    justify-content: space-between
+}
+
+.f_content li {
+    background-color: white;
+    width: 450px;
+    height: 400px;
+    list-style: none;
+    text-align: center;
+    margin-right: 20px;
+    border-style: double;
+    border-width: 8px 8px;
+    border-color: grey;
+}
+
+.btn {
+    background-color: transparent;
+    border-style: solid;
+    color: black;
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+.bt a {
+    text-decoration: none;
+}
+
+.bt a:hover {
+    background-color: orange;
+}
+
+.box2{
+    padding-left: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+    width: 160px;
+    height: 40px;
+    background-color: orange;
+    border: 19px;
+}
+
+.c_content{
+    display: flex;
+}
+
+
+.c_content li{
+    background-color: white;
+    width: 330px;
+    height: 450px;
+    list-style: none;
+    text-align: center;
+    margin-right: 20px;
+    border-style: double;
+    border-width: 8px 8px;
+    border-color: grey;
+}
+
+.margin{
+    margin-bottom: 50px;
+    font-size: large;
+}
+
+.h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+
+ 
