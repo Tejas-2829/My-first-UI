@@ -9,8 +9,13 @@
     <title>Grocy</title>
 </head>
 <style>
-    .container {
+    {
+        margin: 0;
+        padding: 0;
+    }
+    .navbar {
         overflow: hidden;
+        width: 100%;
         display: flex;
         position: relative; 
         position: fixed;
@@ -20,17 +25,18 @@
         padding-bottom: 1%;
         margin-top: -1%;
         margin-left: -1%;
-    }
+    } 
 
-    .icon{
+     .icon{
         display: flex;
         /* list-style: none; */
         justify-content: right;
         /* text-align: center; */
-        margin-left: 300px;
+        margin-left: 30%;
        padding-left: 50px;
+       align-items: left;
         
-    }
+    } 
 
     .icon li{
         text-align: center;
@@ -51,13 +57,12 @@
         text-decoration: none;
     }
 
-    .info{
-        /* position: relative; */
+    .info{ 
         text-align: center;
         color:black;
     }
 
-    .center{
+     .center{
         position: absolute;
         top: 10%;
         left: 40%;
@@ -75,40 +80,42 @@
         display: flex;
         color: black;
         justify-content: space-between;
+        text-decoration: none;
     }
 
     .logo a:hover {
         color: white;
 
-    }
+    } 
 
-    .nav {
+     .nav-list {
         list-style: none;
         display: flex;
         margin: -10px;
         padding-right: 10%;
         font-size: x-large;
-        width: 2000px;
+        width: 100%;
         justify-content: center;
-        margin-left: 100px;
+
+        margin-left: 30%;
     }
 
-    .nav li {
+    .nav-list li {
         text-align: center;
         margin-right: 40px;
         padding-top: 17px;
     }
 
-    .nav a {
+    .nav-list a {
         text-decoration: none;
         color: black;
         font-weight: bold;
     }
 
-    .nav a:hover {
+    .nav-list a:hover {
         color: white;
 
-    }
+    } 
 
     .f1 {
         display: flex;
@@ -201,35 +208,44 @@
         font-size: large;
     }
 
+    /* .navbar{
+        border-style:dotted ;
+        width: 100%;
+    }
+
+
+    .nav-list{
+        display: flex;
+        list-style: none;
+        background-color: brown;
+    }
+
+    .icon{
+        display: flex;
+        list-style: none;
+    } */
+
+
 </style>
 
 <body style="background-color: rgb(233, 229, 229);">
-    <header>
         
-        <div class="container">
+        <nav class="navbar">
             <div class="logo"> <a href="#"><i class="fas fa-shopping-basket"></i>Grocy</a></div>
-            <ul class="nav">
+            <ul class="nav-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Features</a></li>
                 <li><a href="#">Products</a></li>
                 <li><a href="#">Categories</a></li>
+            
                 <ul class="icon">
                     <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
                     <li><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
                     <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
-                </ul>
-            </ul>     
-            
-        </div>
+                </ul>    
+            </ul>
+        </nav>
 
-        <div>
-        
-       
-
-        </div>
-
-
-    </header>
     <div class="info">
         <img src="https://i.pinimg.com/originals/6c/55/bb/6c55bb682541f51946025683440b8d10.jpg"
             width="100%px" height="450px">
